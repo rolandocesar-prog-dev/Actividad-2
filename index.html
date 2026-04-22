@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Taller de Aplicaciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>TecnoStore - Tu Tienda de Celulares</h1>
+    </header>
+
+    <main>
+        <section id="productos">
+            <h2>Nuestros Productos Destacados</h2>
+            <article class="producto">
+                <h3>iPhone 15 Pro</h3>
+                <img src="https://images.pexels.com/photos/14666017/pexels-photo-14666017.jpeg?auto=compress&cs=tinysrgb&w=200" alt="iPhone 15 Pro" width="200">
+                <p>Cámara de 48MP y chip A17 Pro. El equilibrio perfecto entre potencia y elegancia.</p>
+            </article>
+
+            <article class="producto">
+                <h3>Samsung Galaxy S24</h3>
+                <img src="https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Samsung Galaxy S24" width="200">
+                <p>Inteligencia artificial integrada para mejorar tus fotos y productividad diaria.</p>
+            </article>
+
+            <article class="producto">
+                <h3>Xiaomi Redmi Note 13</h3>
+                <img src="https://cdn.pixabay.com/photo/2017/04/26/16/06/mobile-phone-2262928_1280.jpg" alt="Xiaomi Redmi Note 13" width="200">
+                <p>Excelente relación calidad-precio con una pantalla AMOLED impresionante.</p>
+            </article>
+            <button id="boton-interactivo">Ver más modelos</button>
+        </section>
+
+        <hr>
+
+        <section id="contacto">
+            <h3>¿Tienes dudas? Contáctanos</h3>
+            <form id="mi-formulario">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo...">
+                </div>
+                <br>
+                <div>
+                    <label for="mensaje">Consulta:</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="¿En qué podemos ayudarte?"></textarea>
+                </div>
+                <br>
+                <button type="submit" id="btn-enviar">Enviar Formulario</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Email: soporte@tecnostore.com | Teléfono: +123 456 789</p>
+        <p>Síguenos en: 
+            <a href="#" class="red-social">Facebook</a> | 
+            <a href="#" class="red-social">Instagram</a> | 
+            <a href="#" class="red-social">Twitter</a>
+        </p>
+        <p>&copy; 2026 - Proyecto en Equipo - Actividad #2</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
