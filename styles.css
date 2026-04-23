@@ -68,6 +68,11 @@ nav a {
     transform: translateY(-8px);
 }
 
+.producto--seleccionado {
+    outline: 3px solid #2563eb;
+    transform: translateY(-6px);
+}
+
 
 .producto img {
     width: 160px;
@@ -100,6 +105,11 @@ button:hover {
     background: #1d4ed8;
 }
 
+button:disabled {
+    background: #93c5fd;
+    cursor: not-allowed;
+}
+
 
 #contacto {
     text-align: center;
@@ -113,6 +123,24 @@ input, textarea {
     margin-top: 10px;
     border-radius: 10px;
     border: 1px solid #ccc;
+}
+
+.is-invalid {
+    border-color: #dc2626;
+    background: #fef2f2;
+}
+
+#form-feedback {
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+#form-feedback.success {
+    color: #15803d;
+}
+
+#form-feedback.error {
+    color: #dc2626;
 }
 
 
