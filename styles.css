@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+
+header {
+    background: #0f172a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#productos {
+    max-width: 1100px;
+    margin: 40px auto; 
+    text-align: center;
+}
+
+
+#productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 260px);
+    justify-content: center; 
+    gap: 25px;
+}
+
+/* CARD */
+.producto {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.producto:hover {
+    transform: translateY(-8px);
+}
+
+
+.producto img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+.producto h3 {
+    margin-bottom: 10px;
+}
+
+.producto p {
+    font-size: 14px;
+}
+
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+
+#contacto {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input, textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+
+footer {
+    margin-top: 40px;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
